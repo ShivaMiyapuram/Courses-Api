@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Course API
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: shiva
+Specification-Vendor: Pivotal Software, Inc.
+Specification-Title: Course API
+Implementation-Vendor-Id: springbootquickstart
+Build-Jdk: 1.8.0_171
+Specification-Version: 0.0.1-SNAPSHOT
+Implementation-URL: http://projects.spring.io/spring-boot/course-api/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
