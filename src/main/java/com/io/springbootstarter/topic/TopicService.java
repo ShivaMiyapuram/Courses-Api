@@ -47,5 +47,11 @@ public class TopicService {
 			
 		}
 	}
+
+
+	public void deleteTopic(String id) {
+		int i = Integer.parseInt(id);
+		topics.remove(i);
+	}
 	
 }

@@ -21,7 +21,7 @@ public class TopicController {
 		return topicService.getAllTopics();
 	}
 	
-	// Get a particular topic
+	// Get a particular topic using index
 	@RequestMapping("/topics/{id}")
 	public Topic getTopic(@PathVariable String id){
 		return topicService.getTopic(id);
@@ -39,5 +39,10 @@ public class TopicController {
 		topicService.updateTopic(id, topic);
 	}
 	
+	// Delete a specific topic using index
+	@RequestMapping(method=RequestMethod.DELETE, value="/topics/{id}")
+	public void deleteTopic(@PathVariable String id){
+		topicService.deleteTopic(id);
+	}
 	
 }
